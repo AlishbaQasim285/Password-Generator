@@ -1,0 +1,79 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 255, 255, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.settings label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+#password {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+#copyBtn {
+  padding: 0.5rem;
+  background: #00ffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#generateBtn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#generateBtn:hover {
+  background-color: #00cccc;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: transform 0.3s ease;
+}
+
+.watermark:hover {
+  transform: scale(1.1);
+}
+
+svg text {
+  font-family: "Segoe UI", sans-serif;
+}
